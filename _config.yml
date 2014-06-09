@@ -8,3 +8,6 @@ url: "http://whiteworld.me"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+safe: true
+timezone: Asia/Shanghai
