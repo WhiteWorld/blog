@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "rails4 cheat sheed"
+title: "rails4 cheat sheet"
 description: ""
 category: rails
 tags: [ruby,cheatsheet]
