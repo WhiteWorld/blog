@@ -1,4 +1,11 @@
-# Rails4 Cheat Sheet
+---
+layout: post
+title: "rails4 cheat sheed"
+description: ""
+category: rails
+tags: [ruby,cheatsheet]
+---
+{% include JB/setup %}
 
 ## ActiveRecord
 - 映射关系
