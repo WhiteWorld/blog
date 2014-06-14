@@ -40,4 +40,4 @@ tags: [SSH, GoAgent, VPN, DNS]
 有自己国外VPS的朋友，推荐自己搭建VPN或Shadowsocks，安全，可以自由使用。
 
 ## 说明
-上面提到的使用Chrome+SwitchySharp的组合，在FireFox下也有相应的扩展，如[FoxyProxy Standard](getfoxyproxy.org)等。
+上面提到的使用Chrome+SwitchySharp的组合，在FireFox下也有相应的扩展，如[FoxyProxy Standard](http://getfoxyproxy.org)等。
