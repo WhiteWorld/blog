@@ -39,10 +39,7 @@ config.i18n.default_locale = :'zh-CN
 <%= link_to game_dislike_path(@game), class:'btn btn-sm btn-info' do%>已收藏 <% end %>
 #form add class
 html: {method: :put, class: 'form-horizontal'}
-
 ```
-
-
 
  
 
