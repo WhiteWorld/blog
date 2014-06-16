@@ -11,8 +11,8 @@ tags: [ruby,cheatsheet]
 - 映射关系
 
 ```ruby
-has_many belongs_to
-has_many belongs_to
+  has_many belongs_to
+  has_many belongs_to
 ```
 
 - 属性设置
@@ -41,8 +41,3 @@ config.i18n.default_locale = :'zh-CN
 html: {method: :put, class: 'form-horizontal'}
 
 ```
-
-
-
- 
-
