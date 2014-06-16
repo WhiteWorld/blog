@@ -23,12 +23,16 @@ tags: [SSH, GoAgent, VPN, DNS]
 ](https://wzyboy.im/post/874.html "使用国外 DNS 造成国内网站访问慢的解决方法")
 
 - Shadowsocks
-  + A secure socks5 proxy,designed to protect your Internet traffic.  
+
+  >A secure socks5 proxy,designed to protect your Internet traffic.
+    
   + 常见使用方式：Shadowsocks账号+Shadowsocks客户端+Chrome浏览器+SwitchySharp扩展
   + 要求：Shadowsocks账号，可以在自己的国外VPS（如[Digital Ocean](https://www.digitalocean.com/?refcode=ed2350733151 "推荐链接 Digital Ocean")）上部署
 
 - GoAgent
-  + A GEA Proxy。
+  
+  >A GEA Proxy。
+  
   + 常见使用方式：GoAgent账号+GoAgent客户端+Chrome浏览器+SwitchySharp扩展
   + 要求：注册GAE并在GAE上部署服务端，本地运行客户端。
 
