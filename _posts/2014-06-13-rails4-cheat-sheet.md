@@ -10,33 +10,34 @@ tags: [ruby,cheatsheet]
 ## ActiveRecord
 - 映射关系
 
-```ruby
-  has_many
-  belongs_to  
-```
+{% highlight ruby linenos=table %}
+has_many
+belongs_to
+{% endhighlight%}
 
 - 属性设置
 
-```ruby
-  validates_presence_of
-  validates_uniqueness_of
-```
+{% highlight ruby linenos=table %}
+validates_presence_of
+validates_uniqueness_of
+{% endhighlight%}
 
 
 ## 中文化
 
-```ruby
-  config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-  config.i18n.default_locale = :'zh-CN
-  # then,add files in config/locales
-```
+{% highlight ruby linenos=table %}
+config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+config.i18n.default_locale = :'zh-CN
+# then,add files in config/locales
+{% endhighlight%}
 
 ## Views
 
-```ruby
-  #link_to
-  <%= link_to user_path(@user) do%>
-  <%= link_to game_dislike_path(@game), class:'btn btn-sm btn-info' do%>已收藏 <% end %>
-  #form add class
-  html: {method: :put, class: 'form-horizontal'}
-```
+{% highlight ruby linenos=table %}
+config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+#link_to
+<%= link_to user_path(@user) do%>
+<%= link_to game_dislike_path(@game), class:'btn btn-sm btn-info' do%>已收藏 <% end %>
+#form add class
+html: {method: :put, class: 'form-horizontal'}
+{% endhighlight%}
