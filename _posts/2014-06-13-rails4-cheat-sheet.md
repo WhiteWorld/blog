@@ -111,8 +111,6 @@ config.i18n.default_locale = :'zh-CN'
 
 # nest form 暂时没用到
 
-
-config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
 #link_to
 <%= link_to user_path(@user) do%>
 <%= link_to game_dislike_path(@game), class:'btn btn-sm btn-info' do%>已收藏 <% end %>
