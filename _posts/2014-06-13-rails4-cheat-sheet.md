@@ -8,7 +8,6 @@ tags: [ruby,cheatsheet]
 {% include JB/setup %}
 
 ## Model
-- 映射关系
 
 {% highlight ruby linenos=table %}
 # 创建Model
@@ -95,6 +94,24 @@ config.i18n.default_locale = :'zh-CN'
 ## Views
 
 {% highlight ruby linenos=table %}
+
+# helper 封装常用的操作，减少views中嵌入的代码block
+# partial 封装重复的HTML内容， collection partial 进一步简化，省去循环
+
+# yield , content_for
+
+# 逻辑判断，block， orm语句， 不应该在view里（尽量）
+
+# form
+<%= form_for @topic do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.submit %>
+<% end %>
+
+# nest form 暂时没用到
+
+
 config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
 #link_to
 <%= link_to user_path(@user) do%>
