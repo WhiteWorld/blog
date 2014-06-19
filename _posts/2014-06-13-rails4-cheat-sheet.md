@@ -111,9 +111,43 @@ config.i18n.default_locale = :'zh-CN'
 
 # nest form 暂时没用到
 
-#link_to
+
+# 内建Helper
+stylesheet_link_tag 
+image_tag
+form_for
+
+# Helper_method， 在controller里面的method声明为helper_method 才可以在views中使用
+# view_context 在controller必须使用view_context才能调用普通的helper（建议不要混着调用）
+
+# link_to
 <%= link_to user_path(@user) do%>
 <%= link_to game_dislike_path(@game), class:'btn btn-sm btn-info' do%>已收藏 <% end %>
 #form add class
 html: {method: :put, class: 'form-horizontal'}
 {% endhighlight%}
+
+## Controller
+{% highlight ruby linenos=table %}
+# Filter
+after_action
+around_action
+
+# Strong Parameters
+class PeopleController < ActionController::Base
+  def update
+    person.update_attributes!(person_params)
+    redirect_to :back
+  end
+  private
+    def person_params
+      params.require(:person).permit(:name, :age)
+    end
+end
+
+# redirect_to
+# respond_with
+# builder
+{% endhighlight%}
+
+## Asset Pipeline
