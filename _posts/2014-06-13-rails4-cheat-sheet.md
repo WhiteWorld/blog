@@ -156,5 +156,25 @@ end
 # SCSS 兼容 CSS 语法
 
 # CoffeeScript
+{% endhighlight%}
 
+## Routing
+{% highlight ruby linenos=table %}
+#指定動作跟controller action
+get 'products/:id' => 'catalog#view'
+
+#自動按照rails內建的RESTful路徑判斷controller action
+resources :products
+#member & collection
+resources :products do
+#會產生products/:id/short
+     member do
+        get 'short'
+        post 'toggle'
+    end
+#會產生products/sold
+    collection do
+        get 'sold'
+    end
+end
 {% endhighlight%}
