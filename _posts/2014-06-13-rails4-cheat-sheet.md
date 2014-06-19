@@ -151,3 +151,10 @@ end
 {% endhighlight%}
 
 ## Asset Pipeline
+{% highlight ruby linenos=table %}
+# Sass/SCSS
+# SCSS 兼容 CSS 语法
+
+# CoffeeScript
+
+{% endhighlight%}
