@@ -28,7 +28,7 @@ tags: [ruby, reference]
 - 中文社区 [Ruby China](https://ruby-china.org/)
 
 上面这么说的
->Ruby China，对！没错！这里就是 Ruby 社区，目前这里已经是国内最权威的 Ruby 社区，拥有国内所有资深的 Ruby 工程师。
+> Ruby China，对！没错！这里就是 Ruby 社区，目前这里已经是国内最权威的 Ruby 社区，拥有国内所有资深的 Ruby 工程师。
 
 - 开发环境和工具
 
