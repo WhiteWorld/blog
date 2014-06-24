@@ -17,6 +17,7 @@ tags: [deploy, ubuntu, vps]
   - 注意
     - 如果提示没有安装JS运行环境，则可安装nodejs解决 `sudo apt-get install nodejs`
     - 默认Passenger以Production方式运行Rails程序，如果要以Development方式运行，在nginx的配置文件example.com.conf中加入一行，` rails_env development;`
-    - 如果使用VPS，h如[][阿里云](http://www.aliyun.com/)
+    - 如果使用VPS，很可能VPS没有swap分区，导致Rails运行不了。我用的[阿里云](http://www.aliyun.com/)和[Digital Ocean 推荐链接](https://www.digitalocean.com/?refcode=ed2350733151)Ubuntu 12.04都没有使用swap分区，这时就需要创建swap分区，参考[How To Add Swap on Ubuntu 12.04](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-12-04)创建即可。
 
+2. 待续
 
