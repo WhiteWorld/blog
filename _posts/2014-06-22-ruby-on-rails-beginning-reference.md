@@ -34,5 +34,5 @@ tags: [ruby, reference]
 - 开发环境和工具
 
   + 开发环境: 大家建议都是不要使用Windows环境，至于是Mac OS还是类UNIX无所谓。
-  + IDE? : 如果使用IDE推荐RubyMine，[JetBrains](http://www.jetbrains.com/)出品必数精品。如果你喜欢使用Editor直接写，那就用你最喜欢的一款吧。
+  + IDE? : 如果使用IDE推荐RubyMine，[JetBrains](http://www.jetbrains.com/)出品必属精品。如果你喜欢使用Editor直接写，那就用你最喜欢的一款吧。
  
