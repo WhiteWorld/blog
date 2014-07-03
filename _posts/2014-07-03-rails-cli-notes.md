@@ -9,7 +9,9 @@ tags: [CLI, Ruby]
 
 
 ## Create Migration
+
 ### 创建单独的Migration
+
 {% highlight bash %}
 # 添加列
 rails generate migration AddPartNumberToProducts
@@ -27,12 +29,14 @@ rails g migration CreateJoinTableCustomerProduct customer product
 {% endhighlight%}
 
 ### 创建Model
+
 {% highlight bash%}
 # 创建Model
 rails generate model Product name:string description:text
 {% endhighlight%}
 
 ## Writing a Migration
+
 {% highlight ruby %}
 # Creating a Table
 create_table :products do |t|
@@ -50,6 +54,7 @@ end
 {% endhighlight%}
 
 ## Running Migrations
+
 {% highlight bash%}
 rake db:migrate 
 # Rolling Back
