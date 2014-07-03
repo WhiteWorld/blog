@@ -69,6 +69,9 @@ detach 当前session
 
 `prefix + x`
 
+## 其他
 
+进入滚屏 `prefix + [`  退出滚屏 `q`
 
+时钟 `prefix + t` 退出 `q`
 
