@@ -19,4 +19,4 @@ tags: [Git, Dns, Jekyll, Blog]
   - GitHub上绑定自定义域名。在项目根目录下创建CNAME文件，把自己的域名写进去。
   - Gitcafe上绑定自定义域名。在Gitcafe网站上的项目设置菜单中添加自己的域名。
 4. 设置域名DNS。DNSPod上设置DNS记录，添加域名A记录，把域名的电信、联通、教育网线路指向GitCafe的IP地址，把默认线路指向GitHub的IP地址。
-5. 设置项目的git remote url。GitHub和GitCafe的项目Git地址都作为remote url。在`.git/config`文件添加一个alias([参考](http://liberize.me/post/host-your-blog-on-both-github-and-gitcafe.html))，让一条`git publish`命令就可以push到Github和GitCafe上。
+5. 设置项目的git remote url。GitHub和GitCafe的项目Git地址都作为remote url。在`.git/config`文件添加一个alias([参考](http://liberize.me/tech/host-your-blog-on-both-github-and-gitcafe.html))，让一条`git publish`命令就可以push到Github和GitCafe上。
