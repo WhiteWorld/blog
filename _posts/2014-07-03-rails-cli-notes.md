@@ -10,7 +10,7 @@ tags: [CLI, Ruby]
 
 ## Create Migration
 
-### 创建单独的Migration
+创建单独的Migration
 
 {% highlight bash %}
 # 添加列
@@ -28,7 +28,7 @@ rails generate migration AddUserRefToProducts user:references
 rails g migration CreateJoinTableCustomerProduct customer product
 {% endhighlight%}
 
-### 创建Model
+创建Model
 
 {% highlight bash%}
 # 创建Model
