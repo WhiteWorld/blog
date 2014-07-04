@@ -7,6 +7,14 @@ tags: [ruby,cheatsheet]
 ---
 {% include JB/setup %}
 
+## 目录
+
+* Content.
+{:toc}
+
+------
+
+
 ## Model
 
 {% highlight ruby linenos=table %}

@@ -7,71 +7,65 @@ tags: [tmux, Linux]
 ---
 {% include JB/setup %}
 
+## 目录
+
+* Content.
+{:toc}
+
+------
+
 ## session管理
 
-新建一个session
+- 新建一个session
+    tmux new -s session_name
 
-`tmux new -s session_name`
+- attach一个session
+    tmux attach -t session_name
 
-attach一个session
+- 切换session
+	tmux switch -t session_name
 
-`tmux attach -t session_name`
+- 列出存在的session
+	tmux ls
 
-切换session
+- detach 当前session
+	tmux detach 或者 prefix + d
 
-`tmux switch -t session_name`
-
-列出存在的session
-
-`tmux ls`
-
-detach 当前session
-
-`tmux detach` 或者 `prefix + d`
-
-杀死session
-
-`tmux kill-session -t session_name`
+- 杀死session
+	tmux kill-session -t session_name
 
 ## 窗口管理
 
-新建窗口
+- 新建窗口
+	tmux new-window 或者 prefix + c
 
-`tmux new-window` 或者 `prefix + c`
+- 切换窗口
+	tmux select-window -t :0-9 或者 prefix + 0-9
 
-切换窗口
-
-`tmux select-window -t :0-9` 或者 `prefix + 0-9`
-
-重命名窗口
-
-`tmux rename-window` 或者 `prefix + ,`
+- 重命名窗口
+	tmux rename-window 或者 prefix + ,
 
 ## 面板管理
 
-水平分割窗口
+- 水平分割窗口
+	tmux split-window -h 或者 prefix + %
 
-`tmux split-window -h` 或者 `prefix + %`
+- 竖直分割窗口
+	tmux split-window 或者 prefix + "
 
-竖直分割窗口
+- 交换面板
+	prefix + { or }
 
-`tmux split-window` 或者 `prefix + "`
+- 切换面板
+	prefix + [UDLR]
 
-交换面板
-
-`prefix + { or }`
-
-切换面板
-
-`prefix + [UDLR]`
-
-关闭面板
-
-`prefix + x`
+- 关闭面板
+	prefix + x
 
 ## 其他
 
-进入滚屏 `prefix + [`  退出滚屏 `q`
+- 滚屏
+	prefix + [  退出 q
 
-时钟 `prefix + t` 退出 `q`
-
+- 时钟
+	prefix + t 退出 q
