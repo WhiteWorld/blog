@@ -2,8 +2,8 @@
 layout: post
 title: "Ubuntu 12.04上部署Rails应用"
 description: ""
-category: rails
-tags: [deploy, ubuntu, vps]
+category: Rails
+tags: [Deploy, Ubuntu, VPS]
 ---
 {% include JB/setup %}
 

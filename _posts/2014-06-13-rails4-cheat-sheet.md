@@ -2,7 +2,7 @@
 layout: post
 title: "Rails4 Cheat Sheet"
 description: ""
-category: rails
+category: Rails
 tags: [ruby,cheatsheet]
 ---
 {% include JB/setup %}

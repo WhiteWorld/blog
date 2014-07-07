@@ -2,8 +2,8 @@
 layout: post
 title: "Ruby on Rails 入门资料"
 description: ""
-category: rails
-tags: [ruby, reference]
+category: Rails
+tags: [Ruby, reference]
 ---
 {% include JB/setup %}
 

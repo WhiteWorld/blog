@@ -3,7 +3,7 @@ layout: post
 title: "tmux使用记录"
 description: ""
 category: "记录"
-tags: [tmux, Linux]
+tags: [tmux, Linux, Notes]
 ---
 {% include JB/setup %}
 

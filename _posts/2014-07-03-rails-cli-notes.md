@@ -2,8 +2,8 @@
 layout: post
 title: "Ruby on Rails 命令行笔记"
 description: ""
-category: rails
-tags: [CLI, Ruby]
+category: Rails
+tags: [CLI, Ruby, Notes]
 ---
 {% include JB/setup %}
 
