@@ -17,55 +17,71 @@ tags: [tmux, Linux, Notes]
 ## session管理
 
 - 新建一个session
-    tmux new -s session_name
+	  
+	  tmux new -s session_name
 
 - attach一个session
-    tmux attach -t session_name
+      
+      tmux attach -t session_name
 
 - 切换session
-	tmux switch -t session_name
+	  
+	  tmux switch -t session_name
 
 - 列出存在的session
-	tmux ls
+	  
+	  tmux ls
 
 - detach 当前session
-	tmux detach 或者 prefix + d
+	
+	  tmux detach 或者 prefix + d
 
 - 杀死session
-	tmux kill-session -t session_name
+	
+	  tmux kill-session -t session_name
 
 ## 窗口管理
 
 - 新建窗口
-	tmux new-window 或者 prefix + c
+	  
+	  tmux new-window 或者 prefix + c
 
 - 切换窗口
-	tmux select-window -t :0-9 或者 prefix + 0-9
+	  
+	  tmux select-window -t :0-9 或者 prefix + 0-9
 
 - 重命名窗口
-	tmux rename-window 或者 prefix + ,
+	  
+	  tmux rename-window 或者 prefix + ,
 
 ## 面板管理
 
 - 水平分割窗口
-	tmux split-window -h 或者 prefix + %
+	  
+	  tmux split-window -h 或者 prefix + %
 
 - 竖直分割窗口
-	tmux split-window 或者 prefix + "
+	 
+	  tmux split-window 或者 prefix + "
 
 - 交换面板
-	prefix + { or }
+	  
+	  prefix + { or }
 
 - 切换面板
-	prefix + [UDLR]
+	  
+	  prefix + [UDLR]
 
 - 关闭面板
-	prefix + x
+	  
+	  prefix + x
 
 ## 其他
 
 - 滚屏
-	prefix + [  退出 q
+	
+	  prefix + [  退出 q
 
 - 时钟
-	prefix + t 退出 q
+	  
+	  prefix + t 退出 q
