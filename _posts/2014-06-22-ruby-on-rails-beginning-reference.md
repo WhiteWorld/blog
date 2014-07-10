@@ -17,9 +17,14 @@ tags: [Ruby, reference]
 
 其中Rails 101是相对基础，Rails 102相对进阶。Rails 101允许购买者自由定价，Rails 102可以自由在线或下载观看。101的作者是[xdite](http://blog.xdite.net/)，102的作者是[xdite](http://blog.xdite.net/)和她的同事wayne5540。总之，这两本是介绍Rails的书中为数不多精品中文教程，而且基本是免费，赞作者。
 
-- [Ruby on Rails 實戰聖經](http://ihower.tw/rails3/index.html)
+- [Ruby on Rails 實戰聖經](http://ihower.tw/rails4/index.html)
 
-这本书我还没有看，目前是3.2版的，作者网页上说4.1版本的在计划中，那我就等着看4.1版本的了。
+~~这本书我还没有看，目前是3.2版的，作者网页上说4.1版本的在计划中，那我就等着看4.1版本的了。~~
+4.1版本已经可以看了
+
+- [Rails for Zombies](http://railsforzombies.org/)
+
+很有趣的教程，通俗易懂，推荐！
 
 - ScreenCast [RailsCast](http://railscasts.com/) 和 [RailsCast-China](http://railscasts-china.com/)
 
