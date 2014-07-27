@@ -28,7 +28,14 @@ body {
 }
 
 /* Hack via Joel Spolsky to make image rescaling nicer in IE */
-img { -ms-interpolation-mode:bicubic; }
+img { 
+	-ms-interpolation-mode:bicubic; 
+	max-width: 926px;
+	margin: 1.5em auto 1.5em auto;
+	padding: 0;
+/*	padding: 0;
+	margin: 0;*/
+}
 
 /* IE6 ignores this and uses default size of 16pt */
 html>body { font-size:16px; }
@@ -65,7 +72,7 @@ hr {
 sup { line-height: 1ex; }
 
 #site {
-	max-width: 46em;
+	max-width: 1024px;
 	margin: 1.5em auto 3em auto;
 	line-height:1.5em;
 }
