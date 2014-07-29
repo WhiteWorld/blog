@@ -11,7 +11,7 @@ tags: [Ruby, reference]
 
 - 最好的入门资料 [Ruby on Rails Guides](http://guides.rubyonrails.org/)
 
-强烈建议把这个Guides作为学习Rails的第一份资料，先把其中的[Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)跟着做一遍，其他的内容暂时可以不看，遇到不懂得地方再去查。实际上这个Guides最终还是要都看一遍的。如果觉得英文看的吃力，可以购买这个看[Rails Guides 中文版](https://leanpub.com/rails-guides-cn)
+强烈建议把这个Guides作为学习Rails的第一份资料，先把其中的[Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)跟着做一遍，其他的内容暂时可以不看，遇到不懂得地方再去查。实际上这个Guides最终还是要都看一遍的。如果觉得英文看的吃力，可以看ruby-china翻译的[Ruby on Rails 指南](http://guides.ruby-china.org/) 或者购买这个看[Rails Guides 中文版](https://leanpub.com/rails-guides-cn)
 
 - [Rails 101](https://leanpub.com/rails-101) 和 [Rails 102](https://www.gitbook.io/book/rocodev/rails-102)
 
