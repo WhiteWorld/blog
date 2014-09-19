@@ -8,7 +8,7 @@ tags: [resin, config]
 {% include JB/setup %}
 
 
-{%hightlight xml %}
+{%highlight xml %}
 <cluster id="app-id"><!-- 保证这个id不与其他的cluster重复，建议用名字和业务的组合 -->
     <root-directory>.</root-directory>
     <server-default>
