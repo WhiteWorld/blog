@@ -148,4 +148,8 @@ int main(){
 	cout<<s.search(A, 7,7)<<endl;
 	return 0;
 }
+<<<<<<< HEAD
 {%endhighlight%}
+=======
+{%endhighlight%}
+>>>>>>> 2841503b7fe19a7f5741e75c419f17dc30f5e34f
