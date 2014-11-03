@@ -3,7 +3,7 @@ layout: post
 title: "Ubuntu 14.04 LTS 安装 sogou 拼音输入法"
 description: ""
 category: "记录"
-tags: [array, problem, LeetCode]
+tags: [Sogou, Ubuntu, 输入法]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "线性表相关问题"
 description: ""
 category: "记录"
-tags: [array, problem, LeetCode]
+tags: [Array, Problem, LeetCode]
 ---
 {% include JB/setup %}
 

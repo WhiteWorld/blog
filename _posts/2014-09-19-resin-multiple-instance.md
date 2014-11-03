@@ -3,7 +3,7 @@ layout: post
 title: "Resin 多实例配置"
 description: ""
 category: "记录"
-tags: [resin, config]
+tags: [Resin, config]
 ---
 {% include JB/setup %}
 
